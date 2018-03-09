@@ -41,7 +41,7 @@
 set :ssh_options,
     forward_agent: true,
     user: 'ubuntu', # overrides user setting above
-    keys: %w[/Users/gumi-trieu/.ssh/hoangtrieu.pem]
+    keys: %w[/Users/gumi-trieu/.ssh/aws-ubuntu.pem]
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #
