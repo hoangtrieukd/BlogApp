@@ -39,9 +39,9 @@
 # Global options
 # --------------
 set :ssh_options,
-    forward_agent: true
-#     user: "user_name", # overrides user setting above
-#     keys: %w(/home/user_name/.ssh/id_rsa),
+    forward_agent: true,
+    user: 'ubuntu', # overrides user setting above
+    keys: %w[/Users/gumi-trieu/.ssh/hoangtrieu.pem]
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #
