@@ -47,6 +47,6 @@ set :ssh_options,
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
-server '52.41.5.84',
-       user: 'ht-ubuntu-14',
+server '34.216.236.247',
+       user: 'ubuntu',
        roles: %w[web app db]
