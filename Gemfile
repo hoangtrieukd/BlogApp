@@ -15,6 +15,11 @@ gem 'jbuilder', '~> 2.5'
 gem 'carrierwave', '~> 1.0'
 # fog is the Ruby cloud services library
 gem 'fog'
+gem 'capistrano'
+gem 'capistrano-rails'
+gem 'capistrano-bundler'
+gem 'therubyracer'
+gem 'execjs'
 
 group :development, :test do
   gem 'sqlite3'
