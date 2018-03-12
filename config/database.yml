@@ -22,6 +22,8 @@ test:
 
 production:
   adapter: postgresql
+  username: postgresql
+  password:
   encoding: unicode
   database: db/production.postgresql
   pool: 5
