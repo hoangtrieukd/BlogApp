@@ -14,6 +14,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'carrierwave', '~> 1.0'
 # fog is the Ruby cloud services library
+gem 'figaro'
 gem 'fog'
 gem 'capistrano'
 gem 'capistrano-rails'
