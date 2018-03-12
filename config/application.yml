@@ -1,0 +1,37 @@
+## Add configuration values here, as shown below.
+#
+#development:
+#  database: gmv_sapphire_development
+#  username: root
+#  password: ''
+#  rollbar_access_token:
+#  # to config carrierwave
+#  aws_access_key_id: 'AKIAIMLRYL4W4MOPYISA'
+#  aws_secret_access_key: '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'
+#  region: 'ap-northeast-1'
+#  fog_directory: 'worksjapan-asura'
+#  facility_image_map_path: "https://worksjapan-asura.s3.amazonaws.com/images/event_facilities_maps"
+#
+#staging:
+#  database: asura_staging
+#  username: root
+#  password:
+#  rollbar_access_token:
+#  # to config carrierwave
+#  aws_access_key_id: 'AKIAIMLRYL4W4MOPYISA'
+#  aws_secret_access_key: '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'
+#  region: 'ap-northeast-1'
+#  fog_directory: 'worksjapan-asura'
+#  facility_image_map_path: "https://worksjapan-asura.s3.amazonaws.com/images/event_facilities_maps"
+#
+production:
+  database: db/production.postgresql
+#  username: root
+#  password:
+#  rollbar_access_token:
+  # to config carrierwave
+  aws_access_key_id: 'AKIAJF2X5ZO5ZMSQ4SJA'
+  aws_secret_access_key: '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'
+  region: 'us-west-2'
+  fog_directory: 'blog-app-trieu'
+#  facility_image_map_path: "https://worksjapan-asura.s3.amazonaws.com/images/event_facilities_maps"
