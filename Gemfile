@@ -19,6 +19,7 @@ gem 'fog'
 gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
+gem 'capistrano-rbenv'
 gem 'therubyracer'
 gem 'execjs'
 
