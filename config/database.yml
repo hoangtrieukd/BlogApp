@@ -25,5 +25,5 @@ production:
   username: postgresql
   password:
   encoding: unicode
-  database: db/production.postgresql
+  database: production.postgresql
   pool: 5
